@@ -16,7 +16,6 @@ hypothesis= X*theta;
 sqrerror=(hypothesis - y).^2;
 J=sum(sqrerror)/(2*m);
 
-
 % =========================================================================
 
 end
